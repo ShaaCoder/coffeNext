@@ -10,7 +10,7 @@ export async function GET(request) {
       status: 200,
       headers: {
         'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': 'https://your-frontend-domain.vercel.app', // Adjust with your frontend domain
+        'Access-Control-Allow-Origin': 'https://coffe-next-eight.vercel.app/', // Adjust with your frontend domain
         'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
         'Access-Control-Allow-Headers': 'Content-Type, Authorization',
       },
@@ -47,7 +47,7 @@ export async function OPTIONS(request) {
   return new Response(null, {
     status: 204,
     headers: {
-      'Access-Control-Allow-Origin': 'https://your-frontend-domain.vercel.app', // Adjust with your frontend domain
+      'Access-Control-Allow-Origin': 'https://coffe-next-eight.vercel.app//', // Adjust with your frontend domain
       'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
       'Access-Control-Allow-Headers': 'Content-Type, Authorization',
     },
