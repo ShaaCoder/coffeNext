@@ -1,5 +1,5 @@
-import connectToDatabase from '../../lib/mongodb'; // Adjust path if necessary
-import Post from '../../models/Post';
+import connectToDatabase from '../../../lib/mongodb'; // Adjust path according to your structure
+import Post from '../../../models/Post'; 
 
 export async function GET({ params }) {
   try {
